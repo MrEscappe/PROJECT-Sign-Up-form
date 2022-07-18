@@ -7,7 +7,7 @@ body, html {
 }
 
 .left-container {
-    background-image: url(/img/halie-west-25xggax4bSA-unsplash.jpg);
+    background-image: url(img/halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
     min-width: 400px;
     height: 100vh;
