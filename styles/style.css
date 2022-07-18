@@ -1,0 +1,122 @@
+body, html {
+    display: flex;
+    margin: 0 auto;
+    font-size: 16px;
+    justify-content: center;
+    align-content: center;
+}
+
+.left-container {
+    background-image: url(/img/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    min-width: 400px;
+    height: 100vh;
+}
+
+.sidelogo {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.60);
+    margin-top: 250px;
+    width: auto;
+    height: 150px;
+}
+
+.sidelogo img {
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo-title {
+    align-self: center;
+    color: #fff;
+    font-size: 6rem;
+    font-family: 'Norse';
+}
+
+.right-container {
+    background-color: #f9fafb;
+}
+
+.top-text{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 150px 30px 50px 30px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.white-box {
+    padding: 20px 30px 50px 30px;
+    background-color: #fff;
+    box-shadow:  0 4px 9px -2px gray;
+    margin-bottom: 30px;
+}
+
+.white-box h2 {
+    font-weight: 500;
+}
+
+.form-group {
+    display: flex;
+    padding: 10px;
+}
+
+.form-element {
+    width: 230px;
+}
+
+.form-element label {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: .7rem;
+}
+
+.form-element input {
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+.form-element input:focus {
+    border: 1px solid #2788e2;
+    box-shadow: 5px 4px 10px -7px rgba(0,0,0,0.83);
+    outline: none;
+}
+
+.btn-box {
+    padding: 0 40px;
+}
+
+.create-btn {
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 30px;
+    background-color: #596d48;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 4px 10px -7px rgba(0,0,0,0.83);
+    cursor: pointer;
+}
+
+.create-btn:hover {
+    background-color: #94b876;
+}
+
+.btn-box p {
+    font-weight: 500;
+    font-size: .8rem;
+    padding-top: 10px;
+}
+
+.btn-box a {
+    text-decoration: none;
+    color: #596d48;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    font-weight: 400;
+    font-size: .8rem;
+}
